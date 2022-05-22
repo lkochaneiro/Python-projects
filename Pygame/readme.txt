@@ -5,4 +5,4 @@ Gra nr 1:
 - kilka dodatkowych funkcjonalności wraz z wizualizacją
 
 Gra nr 2:
-- w trakcie wykonywanai
+- w trakcie wykonania
