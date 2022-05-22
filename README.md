@@ -1,2 +1,2 @@
 # Python-projects
-Moje projekty, w których próbuję coś tam napisać.
+Moje projekty, w których próbuję napisać coś fajnego
