@@ -2,7 +2,8 @@
 **About project**
 
 Used technologies:
-Python, turtle module
+- Python
+- turtle module. 
 
 It was one of tasks in my collegue course but I modified it a little bit.
 
