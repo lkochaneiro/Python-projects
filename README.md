@@ -1,2 +1,2 @@
 # Python-projects
-Moje projekty, w których próbuję coś napisać
+I'm trying to write some python code and learn new things.
