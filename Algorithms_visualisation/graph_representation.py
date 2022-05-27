@@ -126,13 +126,18 @@ class AdjacencyList(Graph):
         self.lst.pop(del_idx)
         self.dct = {self.lst[i]: i for i in range(len(self.lst))}  # nowy słownik
 
+        # Dwie niemal identyczne pętle ponieważ przy 1 się coś psuło
         for key in self.lst_nei.keys():
             for i, el in enumerate(self.lst_nei[key]):
-                neighbour_key, _ = el
+                neighbour_key, w = el
                 if neighbour_key == del_idx:
                     self.lst_nei[key].pop(i)
-                elif neighbour_key > del_idx:
-                    self.lst_nei[key][i] = neighbour_key - 1
+
+        for key in self.lst_nei.keys():
+            for i, el in enumerate(self.lst_nei[key]):
+                neighbour_key, w = el
+                if neighbour_key > del_idx:
+                    self.lst_nei[key][i] = neighbour_key - 1, w
 
         n = self.order()
 
