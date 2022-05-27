@@ -1,5 +1,5 @@
-from main import *
 import pygame
+from main import window
 
 
 class Image:
