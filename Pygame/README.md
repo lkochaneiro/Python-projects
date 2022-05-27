@@ -1,8 +1,10 @@
-Pierwsze kroki, w których samodzielnie próbuję napisać aplikacje z prostymi grami w pygame.
+First steps, in which I'm trynig to write some pygames. 
 
-Gra nr 1:
-- koło, którym można się poruszać. Celem jest nie dotykanie linii i dotarcie do mety.
-- kilka dodatkowych funkcjonalności wraz z wizualizacją
+Game 1:
+- Your goal is to get your cirlce to the finish without touching the line. 
+- some additional functionalites (visualizing, buttons, etc.)
 
-Gra nr 2:
-- w trakcie wykonania
+<img src="images/game1_trailer.gif" width="450">
+
+Game 2:
+- in progress
